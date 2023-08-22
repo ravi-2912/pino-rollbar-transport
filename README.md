@@ -14,7 +14,7 @@ PinoJs `transport` consists of `target` and `options` attributes. The `options` 
 
 -   `target` - a string with value `pino-rollbar-transport`
 -   `options` - an object with the following
-    -   `rollbarOptions` - Rollbar configuration of type [`Rollbar.Configuration`](https://docs.rollbar.com/docs/rollbarjs-configuration-reference#context-1)
+    -   `rollbarOptions` - Rollbar configuration of type [`Rollbar.Configuration`](https://docs.rollbar.com/docs/rollbarjs-configuration-reference#context-1). Check the [interface code](https://github.com/rollbar/rollbar.js/blob/848d5f0a8071147ec5ff35ec949ad29e7d2c901c/index.d.ts#L50) as well.
     -   `logErrors` - boolean, if `true` Rollbar errors are sent to `console.error`
 
 #### Example Configuration
